@@ -1,3 +1,6 @@
+// TIME: 62ms
+// MEMORY USAGE: 3700kb
+
 #include <iostream>
 
 using namespace std;

@@ -1,3 +1,6 @@
+// TIME: 31ms
+// MEMORY USAGE: 3600kb
+
 #include <iostream>
 #include <math.h>
 
@@ -13,7 +16,7 @@ int main(int argc, char const *argv[]) {
     cin >> n;
     cin >> a;
 
-    // Divides then ronds up value
+    // round_up_number(unpaved_road_length/square_length) * --||--
     k = ceil(m/a)*ceil(n/a);
 
     cout << k << endl;
